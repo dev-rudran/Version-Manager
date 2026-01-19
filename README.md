@@ -41,11 +41,11 @@ Example `metadata.json`:
 
 ## Usage
 
-1. Place `version_manager.py` in your project root.
+1. Place `main.py` in your project root.
 2. From the project root, run:
 
    ```bash
-   python version_manager.py
+   python main.py
    ```
 
 3. When prompted:
@@ -64,7 +64,7 @@ After a few runs, your project might look like:
 my-project/
 ├─ src/
 ├─ assets/
-├─ version_manager.py
+├─ main.py
 └─ versions/
    ├─ v1.zip
    ├─ v2.1.3.zip
